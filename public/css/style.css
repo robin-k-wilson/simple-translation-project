@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+	margin: 2em;
+}
+
+h1 {
+	font-style: italic;
+	color: #373fff;
+}
+
+#translatedText {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	z-index:1;
+	color:blue;
+}
+
+#startLanguageText {
+	position: absolute;
+	top: 10px;
+	left: 40px;
+	z-index:1;
+}
