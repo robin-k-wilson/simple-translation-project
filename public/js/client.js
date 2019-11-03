@@ -139,6 +139,12 @@ function createLanguageSelectionDropdowns() {
 function init() {
 	document.addEventListener("DOMContentLoaded", () => {
 		createLanguageSelectionDropdowns();
+		const instructionsElem = document.getElementById("instructions");
+		instructionsElem.classList.add("visible");
+		setTimeout(function () {
+			instructionsElem.classList.remove("visible");
+			instructionsElem.classList.add("hidden");
+		}, 3500);
 	});
 }
 

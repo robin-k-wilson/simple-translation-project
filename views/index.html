@@ -31,6 +31,12 @@
   <select id="targetLanguage" type="text">
   </select>
 
+  <div id="instructions">
+    Focus and click to get translation!
+  </div>
+
+  <a href="https://github.com/robin-k-wilson/simple-translation-project"><img src="/img/github-512.png" style="width:50px; height:50px; z-index: 1; right: 20px; bottom:20px; position: absolute" title="To Github repo" alt="Link to Github repo"></a>
+
   <a-scene id="ascene" vr-mode-ui="enabled: false">
 
     <a-assets>
@@ -46,7 +52,7 @@
     </a-assets>
     <!-- Camera -->
     <a-camera camera look-controls user-height="0">
-      <a-cursor fuse="false" position="0 0 -0.25" geometry="primitive: ring; radiusInner: 0.00002; radiusOuter: 0.001" material="color: blue; shader: flat">
+      <a-cursor fuse="false" position="0 0 -0.25" geometry="primitive: ring; radiusInner: 0.00004; radiusOuter: 0.002" material="color: blue; shader: flat">
       </a-cursor>
     </a-camera>
 

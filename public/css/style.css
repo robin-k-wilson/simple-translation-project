@@ -42,3 +42,40 @@ h1 {
 	left: 40px;
 	z-index:1;
 }
+
+#instructions {
+	font-size: 2em;
+	bottom: 40px;
+	left: 40px;
+	z-index:1;
+	position: absolute;
+}
+
+
+.visible {
+	animation: fadeInAnimation ease 2s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.hidden {
+	animation: fadeOutAnimation ease 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+@keyframes fadeOutAnimation {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
