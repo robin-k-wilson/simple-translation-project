@@ -9,12 +9,13 @@ const app = express();
 const { Translate } = require('@google-cloud/translate').v2;
 const util = require("util");
 
-const secrets = require("./secrets.json");
+const dotenv = require('dotenv');
+dotenv.config();
 
 let translateCache = {};
 let translate = new Translate({
-    projectId: secrets.PROJECT_ID,
-    key: secrets.GOOGLE_API_KEY
+    projectId: process.env.PROJECT_ID,
+    key: process.env.GOOGLE_API_KEY
 });
 
 app.use(express.static("public"));
@@ -29,7 +30,7 @@ app.get("/translate/:language/:englishword", function (request, response) {
         .catch(e => { console.log(e, "error") })
 });
 
-const listener = app.listen(secrets.PORT, function () {
+const listener = app.listen(process.env.PORT, function () {
     console.log("Your app is listening on port " + listener.address().port);
 });
 
