@@ -12,6 +12,22 @@ h1 {
 	color: #373fff;
 }
 
+#startLanguage {
+	font-size: 1em;
+	position: absolute;
+	top: 30px;
+	right: 40px;
+	z-index:1
+}
+
+#targetLanguage {
+	font-size: 1em;
+	position: absolute;
+	top: 70px;
+	right: 40px;
+	z-index:1
+}
+
 #translatedText {
 	position: absolute;
 	top: 40px;
