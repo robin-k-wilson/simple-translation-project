@@ -1,16 +1,18 @@
-# Simple translation project
+![Simple translation project screenshot](/public/img/translationProject.png)
 
-Uses A-Frame, Google Poly, and Google Translate for translations.
+# Simple translation project (work in progress)
 
-This is a work in progress.
+This app uses A-Frame, Google Poly, and Google Translate for translations.
 
 ## How to use!
 
-Click on different objects in the scene and you'll get a translation pop up.
+Click on different objects in the scene and you'll get a translation pop up in the upper left corner.
 
+*Pssst! Look around!* I promise you'll find something surprising!
 
-## Future Features
+## Planned Expansions
 
-- Added voice clips to read with click
-- Latin transliteration for Chinese and Japanese characters
-- VR mode has word pop ups
+- Added voice that reads translations
+- Latin transliteration translation for Chinese (pinyin) and Japanese characters
+- VR mode has translation word pop ups
+- Toggle sentences with context vs one word object vocabulary
