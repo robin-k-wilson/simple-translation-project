@@ -37,7 +37,7 @@ const LANGUAGES = {
 
 // dynamic variables w/ default values
 let startLanguage = "english";
-let targetLanguage = "french";
+let targetLanguage = "italian";
 
 AFRAME.registerComponent("translatable", {
 	init: function () {
