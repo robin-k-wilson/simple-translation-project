@@ -15,7 +15,6 @@
     crossorigin="anonymous"></script>
 
   <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
-  <script src="https://unpkg.com/aframe-google-poly-component@1.0.0/dist/aframe-google-poly-component.min.js"></script>
 
   <!-- import the webpage's javascript file -->
   <script src="/js/client.js"></script>
@@ -32,7 +31,7 @@
   <select id="targetLanguage" type="text" style="position: absolute; top: 60px; right: 40px; z-index:1">
   </select>
 
-  <a-scene id="ascene" vr-mode-ui="enabled: false" google-poly="api_key: AIzaSyBLFr0cInKQKopG1TsmIpZc5MJbp3SBZm4">
+  <a-scene id="ascene" vr-mode-ui="enabled: false">
 
     <a-assets>
       <a-asset-item id="plant" src="/models/plant/FiddleleafFigPottedPlant.gltf"></a-asset-item>
