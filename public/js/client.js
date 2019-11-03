@@ -87,13 +87,14 @@ AFRAME.registerComponent("translatable", {
 let removeTranslatedWordsInterval = null; // used with removing the translated text from the screen
 
 // resets timeout for removing the translated words from the screen back to 3 seconds
+const TIMEOUT_LENGTH = 3000;
 function setRemoveTranslatedWordsInterval() {
 	if (removeTranslatedWordsInterval) {
 		clearTimeout(removeTranslatedWordsInterval);
 	}
 	removeTranslatedWordsInterval = setTimeout(
 		removeTranslatedWordsFromScreen,
-		3000
+		TIMEOUT_LENGTH
 	);
 }
 
