@@ -9,6 +9,16 @@
   <meta property="og:description" content="Explore the scene and click to get translations." />
   <meta property="og:image" content="/img/translationProject.png">
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151387037-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-151387037-1');
+  </script>
+
   <!-- import the webpage's stylesheet -->
   <link rel="stylesheet" href="/css/style.css" />
 
@@ -37,7 +47,10 @@
     Focus and click to get translation!
   </div>
 
-  <a href="https://github.com/robin-k-wilson/simple-translation-project"><img src="/img/github-512.png" style="width:50px; height:50px; z-index: 1; right: 20px; bottom:20px; position: absolute" title="To Github repo" alt="Link to Github repo"></a>
+  <a href="https://github.com/robin-k-wilson/simple-translation-project">
+    <img src="/img/github-512.png" style="width:50px; height:50px; z-index: 1; right: 20px; bottom:20px; position: absolute"
+      title="To Github repo" alt="Link to Github repo">
+  </a>
 
   <a-scene id="ascene" vr-mode-ui="enabled: false">
 
@@ -63,40 +76,54 @@
     <!-- Time Hotel 4.05 LoTR 3 https://poly.google.com/view/e_v3xiojho9 by S. Paul Michael CC-BY license -->
     <a-entity translatable englishword="book" gltf-model="#book" scale="0.5 0.5 0.5" position="-0.20051 1.2712 -2.58755" rotation="90.00021045914971 169.80520991174154 0"></a-entity>
     <!-- Wood chair https://poly.google.com/view/7Jl72KgiRl- by Poly by Google CC-BY license -->
-    <a-entity translatable englishword="chair" gltf-model="#chair" scale="0.005 0.005 0.005" rotation="-89.99963750135457 82.56608306732728 0" position="0.37495 0.00001 -4.62553"></a-entity>
+    <a-entity translatable englishword="chair" gltf-model="#chair" scale="0.005 0.005 0.005" rotation="-89.99963750135457 82.56608306732728 0"
+      position="0.37495 0.00001 -4.62553"></a-entity>
 
-    <a-entity translatable englishword="chair" gltf-model="/models/chair/WoodChair_01(1).gltf" scale="0.005 0.005 0.005" rotation="-89.99963750135457 79.9453741123989 0" position="1.55225 0.00001 -4.37858"></a-entity>
+    <a-entity translatable englishword="chair" gltf-model="/models/chair/WoodChair_01(1).gltf" scale="0.005 0.005 0.005" rotation="-89.99963750135457 79.9453741123989 0"
+      position="1.55225 0.00001 -4.37858"></a-entity>
 
-    <a-entity translatable englishword="chair" gltf-model="/models/chair/WoodChair_01(1).gltf" scale="0.005 0.005 0.005" rotation="-89.99963750135457 -41.78237425212015 0" position="1.59591 0.00001 -1.74972"></a-entity>
+    <a-entity translatable englishword="chair" gltf-model="/models/chair/WoodChair_01(1).gltf" scale="0.005 0.005 0.005" rotation="-89.99963750135457 -41.78237425212015 0"
+      position="1.59591 0.00001 -1.74972"></a-entity>
 
     <!-- Desk Lamp https://poly.google.com/view/0_FDq_UjWHp by Pookage Hayes CC-BY license -->
     <a-entity translatable englishword="lamp" gltf-model="#lamp" scale="0.5 0.5 0.5" position="-0.32088 0.14537 -3.34592"></a-entity>
     <!-- Table https://poly.google.com/view/8cnrwlAWqx7 by Poly by Google CC-BY license -->
-    <a-entity translatable englishword="table" gltf-model="#table" scale="0.13844 0.13844 0.13844" position="0.86977 0 -3.42032" rotation="0 80 0"></a-entity>
+    <a-entity translatable englishword="table" gltf-model="#table" scale="0.13844 0.13844 0.13844" position="0.86977 0 -3.42032"
+      rotation="0 80 0"></a-entity>
     <!-- Espresso Cup https://poly.google.com/view/deH_Cq5BwIK by Poly by Google CC-BY license -->
     <a-entity translatable englishword="mug" gltf-model="#mug" scale="0.5 0.5 0.5" position="1.44694 1.08194 -3.16829"></a-entity>
     <!-- Cup https://poly.google.com/view/1zWEvWP2vOQ by Poly by Google CC-BY license -->
     <a-entity translatable englishword="cup" gltf-model="#cup" scale="0.04872 0.04872 0.04872" position="1.81235 1.06293 -2.8409"></a-entity>
     <!-- Sofa https://poly.google.com/view/bwd4gui4RZ4 by Poly by Google CC-BY license -->
-    <a-entity translatable englishword="sofa" gltf-model="/models/sofa/Sofa_01.gltf" scale="0.1436 0.1436 0.1436" position="-4.60654 0 -2.35436" rotation="0 -31.614 0"></a-entity>
+    <a-entity translatable englishword="sofa" gltf-model="/models/sofa/Sofa_01.gltf" scale="0.1436 0.1436 0.1436" position="-4.60654 0 -2.35436"
+      rotation="0 -31.614 0"></a-entity>
 
     <a-entity position="0.5 0 0">
       <!-- Lion https://poly.google.com/view/3XAJojWxSWz by Poly by Google CC-BY license -->
-      <a-entity translatable englishword="hungry lion" gltf-model="/models/lion/Lion.gltf" scale="0.2 0.2 0.2" position="-0.46617 -0.0311 3.99713" rotation="-180 -4.209 -180"></a-entity>
-      <a-entity translatable="" englishword="hungry lion" gltf-model="/models/lion/Lion.gltf" scale="0.2 0.2 0.2" position="0.09701 1.04083 1.90915" rotation="16.27314729730564 -159.35847043312125 26.699260295301233"></a-entity>
-      <a-entity translatable englishword="hungry lion" gltf-model="/models/lion/Lion.gltf" scale="0.2 0.2 0.2" position="-0.91187 -0.0311 2.38354" rotation="-180 -4.209 -180"></a-entity>
-      <a-entity translatable="" englishword="hungry lion" gltf-model="/models/lion/Lion.gltf" scale="0.2 0.2 0.2" position="-1.8839 -0.00115 2.5887" rotation="0 153.51315500719662 0"></a-entity>
-      <a-entity translatable="" englishword="hungry lion" gltf-model="/models/lion/Lion.gltf" scale="0.2 0.2 0.2" position="0.08376 -0.0311 2.02986" rotation="-1.6306378849423229 -164.12261449963404 -0.463522856260836"></a-entity>
-      <a-entity translatable="" englishword="hungry lion" gltf-model="/models/lion/Lion.gltf" scale="0.2 0.2 0.2" position="-0.31361 1.08343 1.80746" rotation="18.967767807805902 -172.45915041878754 2.4637185190625397"></a-entity>
+      <a-entity translatable englishword="hungry lion" gltf-model="/models/lion/Lion.gltf" scale="0.2 0.2 0.2" position="-0.46617 -0.0311 3.99713"
+        rotation="-180 -4.209 -180"></a-entity>
+      <a-entity translatable="" englishword="hungry lion" gltf-model="/models/lion/Lion.gltf" scale="0.2 0.2 0.2" position="0.09701 1.04083 1.90915"
+        rotation="16.27314729730564 -159.35847043312125 26.699260295301233"></a-entity>
+      <a-entity translatable englishword="hungry lion" gltf-model="/models/lion/Lion.gltf" scale="0.2 0.2 0.2" position="-0.91187 -0.0311 2.38354"
+        rotation="-180 -4.209 -180"></a-entity>
+      <a-entity translatable="" englishword="hungry lion" gltf-model="/models/lion/Lion.gltf" scale="0.2 0.2 0.2" position="-1.8839 -0.00115 2.5887"
+        rotation="0 153.51315500719662 0"></a-entity>
+      <a-entity translatable="" englishword="hungry lion" gltf-model="/models/lion/Lion.gltf" scale="0.2 0.2 0.2" position="0.08376 -0.0311 2.02986"
+        rotation="-1.6306378849423229 -164.12261449963404 -0.463522856260836"></a-entity>
+      <a-entity translatable="" englishword="hungry lion" gltf-model="/models/lion/Lion.gltf" scale="0.2 0.2 0.2" position="-0.31361 1.08343 1.80746"
+        rotation="18.967767807805902 -172.45915041878754 2.4637185190625397"></a-entity>
     </a-entity>
 
     <a-box translatable englishword="square" position="-4.80653 0.54853 1.10058" rotation="0 45 0" color="#4CC3D9"></a-box>
     <a-sphere translatable englishword="sphere" position="-6.44882 0.82113 2.5138" radius="1.25" color="#EF2D5E" material></a-sphere>
-    <a-cylinder translatable englishword="cylinder" position="-6.49552 0.79514 0.48927" radius="0.5" height="1.5" color="#FFC65D" material></a-cylinder>
+    <a-cylinder translatable englishword="cylinder" position="-6.49552 0.79514 0.48927" radius="0.5" height="1.5" color="#FFC65D"
+      material></a-cylinder>
 
-    <a-cylinder translatable englishword="carpet" position="-1.42056 0.0172 -0.56769" radius="0.5" height="1.5" color="#b188ff" material="color:#b188ff" scale="4.81276 0.00005 4.81276"></a-cylinder>
+    <a-cylinder translatable englishword="carpet" position="-1.42056 0.0172 -0.56769" radius="0.5" height="1.5" color="#b188ff"
+      material="color:#b188ff" scale="4.81276 0.00005 4.81276"></a-cylinder>
 
-    <a-plane translatable englishword="plane" position="-5.98714 0.00884 1.36229" rotation="-89.99963750135457 15.894995152519298 0" width="4" height="4" color="#7BC8A4" material></a-plane>
+    <a-plane translatable englishword="plane" position="-5.98714 0.00884 1.36229" rotation="-89.99963750135457 15.894995152519298 0"
+      width="4" height="4" color="#7BC8A4" material></a-plane>
 
     <a-sky color="#ECECEC"></a-sky>
   </a-scene>
